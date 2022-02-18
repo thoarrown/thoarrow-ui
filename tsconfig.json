@@ -9,15 +9,11 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "moduleResolution": "node",
     "declaration": true,
-    "declarationDir": "types",
+    "outDir": "dist",
+    "typeRoots": ["./node_modules/@types/"],
+    "noFallthroughCasesInSwitch": true,
     "rootDir": "src"
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "tests",
-    "**/__tests__/**/*",
-    "**/__stories__/**/*"
-  ],
+  "exclude": ["node_modules", "dist", "tests", "**/__tests__/**/*", "**/__stories__/**/*"],
   "include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }

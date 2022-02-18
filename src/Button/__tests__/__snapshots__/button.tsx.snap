@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should support all sizes 1`] = `
+.c0 {
+  border: 1px solid transparent;
+  font: inherit;
+  height: 3.5rem;
+  background-color: #6C5DD3;
+}
+
+<div>
+  <button
+    class="c0"
+  />
+  <button
+    class="c0"
+  />
+</div>
+`;
